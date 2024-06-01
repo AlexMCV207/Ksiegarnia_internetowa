@@ -14,9 +14,9 @@
         <div id="panel_left">
         </div>
         <div id="main">
-            <button id="b1" onclick="location.href='http://localhost/login_form.html';">Zaloguj</button><br>
-            <button id="b2" onclick="location.href='http://localhost/registration_form.html';">Zarejestruj</button><br>
-            <button id="b3" onclick="location.href='http://localhost/books.php';">Przeglądaj zasoby</button><br>
+            <button id="b1" onclick="location.href='http://localhost/books_logged.php';">Wyszukaj</button><br>
+            <button id="b2" onclick="location.href='http://localhost/';">Złóż zamówienie</button><br>
+            <button id="b3" onclick="location.href='http://localhost/main.html'">Wyloguj</button><br>
         </div>
     </div>
     <div id="footer">
