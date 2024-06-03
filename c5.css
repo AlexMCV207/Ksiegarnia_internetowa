@@ -34,7 +34,13 @@ body{
 }
 
 #inp1{
-    margin-top:20px;
+    background-color:rgb(34, 34, 34);
+    border:4px dashed black;
+    color:white;
+    height:22px;
+    width:210px;
+    margin-right:20px;
+    margin-left:17px;
 }
 #main_title{
     margin:0px;
@@ -79,6 +85,26 @@ button{
     color:white;
     font-weight:bold;
 }
+#button{
+    background-color:rgb(34, 34, 34);
+    border:4px dashed black;
+    padding-top:0px;
+    height:30px;
+    margin-top:5px;
+    width:200px;
+    font-size:20px;
+    color:white;
+    font-weight:bold;
+}
+#button1{
+    background-color:rgb(34, 34, 34);
+    border:4px dashed black;
+    margin-top:22px;
+    width:250px;
+    font-size:20px;
+    color:white;
+    font-weight:bold;
+}
 #section{
     border:4px dashed black;
     font-size:20px;
@@ -90,6 +116,17 @@ button{
     margin-left:20px;
     margin-top:20px;
 }
+#section1{
+    border:4px dashed black;
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+    background-color:rgb(34, 34, 34);
+    height:70px;
+    width:23%;
+    margin-left:20px;
+    margin-top:20px;
+}
 h2{
     margin:0px;
 }
@@ -98,7 +135,4 @@ h2{
 }
 #td2{
     width:500px;
-}
-#f1{
-    border:4px dashed black;
 }

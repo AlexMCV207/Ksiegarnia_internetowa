@@ -14,9 +14,9 @@
         <div id="panel_left">
         </div>
         <div id="main">
-            <button id="b1" onclick="location.href='http://localhost/books_logged.php';">Wyszukaj</button><br>
-            <button id="b2" onclick="location.href='http://localhost/order.php';">Złóż zamówienie</button><br>
-            <button id="b3" onclick="location.href='http://localhost/main.html'">Wyloguj</button><br>
+            <button id="b1" onclick="location.href='http://localhost/';">Dodaj/Usuń klienta</button><br>
+            <button id="b2" onclick="location.href='http://localhost/';">Dodaj/Usuń książkę</button><br>
+            <button id="b3" onclick="location.href='http://localhost/main.html';">Wyloguj</button><br>
         </div>
     </div>
     <div id="footer">

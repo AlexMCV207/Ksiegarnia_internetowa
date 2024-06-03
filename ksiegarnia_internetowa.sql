@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Cze 02, 2024 at 12:37 AM
+-- Generation Time: Cze 04, 2024 at 12:41 AM
 -- Wersja serwera: 10.4.32-MariaDB
 -- Wersja PHP: 8.2.12
 
@@ -52,7 +52,8 @@ INSERT INTO `klient` (`Id_klienta`, `Nazwisko`, `Imie`, `Kod_pocztowy`, `Miejsco
 (2, 'Kicior', 'Marek', '33-100', 'Tarnów', 'Lwowska', '12', 0, 215121215, 'marek@poczta.pl', NULL, NULL, 0),
 (5, 'Nosalski', 'Egon', '25-124', 'Robaki', 'Kornika', '56', 0, 542121212, 'kornik1@nowy.com', NULL, NULL, 0),
 (6, 'Żabka', 'Kacper', '78-512', 'Londonek', 'Korce', '325/12', 0, 741741741, 'Korce@dkdal.com', NULL, NULL, 0),
-(31, 'Kowalski', 'Jan', '33-100', 'Tarnow', 'Szujskiego', '45', 0, 837927165, 'j.kowalski@w.pl', 'JK2024', '12345', 0);
+(31, 'Kowalski', 'Jan', '33-100', 'Tarnow', 'Szujskiego', '45', 0, 837927165, 'j.kowalski@w.pl', 'JK2024', '12345', 0),
+(73, 'Nowak', 'Jan', '33-100', 'Tarnow', 'Krakowska', '80', 0, 132745952, 'j.nowak@w.pl', 'phpadmin', '54321', 1);
 
 -- --------------------------------------------------------
 
@@ -107,7 +108,7 @@ ALTER TABLE `ksiazki`
 -- AUTO_INCREMENT for table `klient`
 --
 ALTER TABLE `klient`
-  MODIFY `Id_klienta` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=73;
+  MODIFY `Id_klienta` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=74;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

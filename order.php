@@ -2,7 +2,7 @@
 <head>
 <meta charset="utf-8">
     <title>Zasoby</title>
-    <link rel="stylesheet" type="text/css" href="c4.css">
+    <link rel="stylesheet" type="text/css" href="c5.css">
 </head>
 <body>
     <div id="header">
@@ -22,7 +22,7 @@ $l = mysqli_num_rows($wyn1);
 for($i = 0; $i < $l; $i++)
 {
     $w = mysqli_fetch_array($wyn1);
-    echo "<div id='section'><table><tr><td id='td1'><h2>".$w['1']."</h2>".$w['2'].", ".$w['4']."zł, ".$w['5']."szt.</td><td id='td2'></td></tr></table></div>";
+    echo "<div id='section'><table><tr><td id='td1'><h2>".$w['1']."</h2>".$w['2'].", ".$w['4']."zł, ".$w['5']."szt.</td><form method='post'><td>Liczba:<input type='number' id='inp1' min='0' max='".$w['5']."'></td><td id='td2'><input type='submit' id='button1' value='Dodaj do zamówienia'></td><form method='post'></tr></table></div>";
 }
 ?>
 <!DOCTYPE html>
